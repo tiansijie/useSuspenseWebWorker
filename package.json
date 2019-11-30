@@ -1,0 +1,34 @@
+{
+	"name": "use-suspense-webworker",
+	"version": "1.0.0",
+	"description": "Use webworker with react suspense and hooks",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"example": "parcel ./examples/index.html",
+		"build": "babel src -d lib"
+	},
+	"author": "Sijie Tian",
+	"license": "MIT",
+	"dependencies": {
+		"react": "0.0.0-experimental-38dd17ab9"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.7.0",
+		"@babel/core": "^7.7.2",
+		"@babel/preset-react": "^7.7.4",
+		"parcel-bundler": "^1.12.4",
+		"react-dom": "0.0.0-experimental-38dd17ab9"
+	},
+	"peerDependencies": {
+		"react": "0.0.0-experimental-38dd17ab9"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env"
+			],
+			"@babel/preset-react"
+		]
+	}
+}
